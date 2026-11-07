@@ -186,6 +186,8 @@ describe("catalogClient", () => {
       const { catalogClient: demoModeClient } = await import("./catalogClient");
       await expect(demoModeClient.facets()).rejects.toThrow("演示目录暂未提供维度筛选");
       await expect(demoModeClient.regions()).rejects.toThrow("演示目录暂未提供维度筛选");
+      await expect(demoModeClient.facets()).rejects.toMatchObject({ kind: "http", status: 503 });
+      await expect(demoModeClient.regions()).rejects.toMatchObject({ kind: "http", status: 503 });
       expect(fetch).not.toHaveBeenCalled();
     } finally {
       vi.doUnmock("./config");

@@ -25,7 +25,7 @@ test("public demo: question produces synthetic answer and references", async ({ 
 
 test("public demo: catalog search and original reading require no backend", async ({ page }) => {
   const apiCalls: string[] = [];
-  page.on("request", request => { if (request.url().includes("/api/")) apiCalls.push(request.url()); });
+  page.on("request", request => { if (new URL(request.url()).pathname.startsWith("/api/")) apiCalls.push(request.url()); });
   await page.goto("/");
   await page.getByRole("navigation", { name: "主导航" }).getByRole("button", { name: "文献", exact: true }).click();
   await expect(page.getByText("当前库共有 3 篇政策文献")).toBeVisible();
