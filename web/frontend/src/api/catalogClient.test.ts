@@ -106,8 +106,8 @@ describe("catalogClient", () => {
   });
 
   it("marks demo catalog data and reports additional pages correctly", async () => {
-    const first = await demoCatalogClient.content("DEMO-001", 0, 8);
-    const found = await demoCatalogClient.list({ q: "数字经济" });
+    const first = await demoCatalogClient.content("DEMO-A", 0, 8);
+    const found = await demoCatalogClient.list({ q: "合成演示文本" });
 
     expect(first.dataset.source).toBe("demo_synthetic");
     expect(first.has_more).toBe(true);
