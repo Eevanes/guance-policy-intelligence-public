@@ -1,0 +1,149 @@
+{
+  "schema_version": "policy-topics/1",
+  "source": "synthetic-demo",
+  "method": "synthetic examples only; no real policy metadata",
+  "total_documents": 3,
+  "categories": [
+    {
+      "id": "comprehensive",
+      "name": "综合发展与政府工作",
+      "description": "综合性五年规划、国民经济与社会发展纲要及政府工作报告",
+      "count": 3
+    },
+    {
+      "id": "industry",
+      "name": "产业经济与营商",
+      "description": "产业、工业、服务业、金融贸易、企业及营商环境",
+      "count": 3
+    },
+    {
+      "id": "digital",
+      "name": "数字经济与科技",
+      "description": "数字化、信息技术、科技创新及知识产权",
+      "count": 3
+    },
+    {
+      "id": "ecology",
+      "name": "生态环境与低碳",
+      "description": "环境保护、节能减排、生态修复及气候变化",
+      "count": 3
+    },
+    {
+      "id": "rural",
+      "name": "农业农村与乡村振兴",
+      "description": "农业现代化、农村建设、乡村振兴与涉农产业",
+      "count": 3
+    },
+    {
+      "id": "urban",
+      "name": "城乡建设与区域协调",
+      "description": "城乡规划、城镇化、住房、国土空间及区域合作",
+      "count": 3
+    },
+    {
+      "id": "health",
+      "name": "医疗卫生与健康",
+      "description": "医疗服务、公共卫生、健康与医疗保障",
+      "count": 3
+    },
+    {
+      "id": "education",
+      "name": "教育人才与技能",
+      "description": "教育、人才培养、科学素质及职业技能",
+      "count": 3
+    },
+    {
+      "id": "welfare",
+      "name": "民生保障与养老",
+      "description": "社会保障、就业、民政、养老与妇女儿童",
+      "count": 3
+    },
+    {
+      "id": "culture",
+      "name": "文化旅游与体育",
+      "description": "文化产业、旅游业、体育、全民健身及地方志",
+      "count": 3
+    },
+    {
+      "id": "infrastructure",
+      "name": "交通能源与水利",
+      "description": "交通运输、邮政、能源及水利水务基础设施",
+      "count": 3
+    },
+    {
+      "id": "governance",
+      "name": "政府治理与法治",
+      "description": "政务治理、司法、审计、市场监管与档案",
+      "count": 3
+    },
+    {
+      "id": "safety",
+      "name": "公共安全与应急",
+      "description": "应急、消防、灾害防治及公共安全",
+      "count": 3
+    }
+  ],
+  "documents": {
+    "DEMO-A": {
+      "title": "示例人才支持方案 A（演示）",
+      "area": "示例地区甲",
+      "fyp": "演示规划期",
+      "tags": [
+        "comprehensive",
+        "industry",
+        "digital",
+        "ecology",
+        "rural",
+        "urban",
+        "health",
+        "education",
+        "welfare",
+        "culture",
+        "infrastructure",
+        "governance",
+        "safety"
+      ]
+    },
+    "DEMO-B": {
+      "title": "示例人才支持方案 B（演示）",
+      "area": "示例地区乙",
+      "fyp": "演示规划期",
+      "tags": [
+        "comprehensive",
+        "industry",
+        "digital",
+        "ecology",
+        "rural",
+        "urban",
+        "health",
+        "education",
+        "welfare",
+        "culture",
+        "infrastructure",
+        "governance",
+        "safety"
+      ]
+    },
+    "DEMO-C": {
+      "title": "示例人才支持方案 C（演示）",
+      "area": "示例地区丙",
+      "fyp": "演示规划期",
+      "tags": [
+        "comprehensive",
+        "industry",
+        "digital",
+        "ecology",
+        "rural",
+        "urban",
+        "health",
+        "education",
+        "welfare",
+        "culture",
+        "infrastructure",
+        "governance",
+        "safety"
+      ]
+    }
+  },
+  "unclassified_count": 0
+}
